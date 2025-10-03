@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include "IntroToProgramming.h"
 using namespace std;
 
 
@@ -21,7 +21,11 @@ int main() {
 
 	} while (pick < 1 && pick > 9);
 	cin >> pick;
+	switch (pick) {
+	case 1:
+		Beginning(); 
 
+	}
 
 
 
