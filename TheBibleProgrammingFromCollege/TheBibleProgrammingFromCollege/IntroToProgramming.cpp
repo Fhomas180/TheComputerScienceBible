@@ -12,11 +12,9 @@ Beginning::Beginning() {
 		cout << "6.File I/O's" << endl;
 		cout << "7.Function" << endl;
 		cout << "8.Arrays" << endl;
-
-
-
-	} while (select > 0 && select < 8);
-	cin >> select;
+		cin >> select;
+	} while (select < 1 && select > 8);
+	
 	switch (select) {
 	case 1:
 		Variables();

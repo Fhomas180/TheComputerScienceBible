@@ -1,5 +1,7 @@
 #include <iostream>
 #include "IntroToProgramming.h"
+#include "AdvancedProgramming.h"
+
 using namespace std;
 
 
@@ -18,13 +20,17 @@ int main() {
 		cout << "7. Computer Architecture" << endl;
 		cout << "8. Artifical Intelligence For Games" << endl;
 		cout << "9. Quit" << endl;
+		cin >> pick;
 
 	} while (pick < 1 && pick > 9);
-	cin >> pick;
+	
 	switch (pick) {
 	case 1:
-		Beginning(); 
-
+		Beginning intoMenu;
+		break;
+	/*case 2:
+		AdvancedBegin beginMenu;
+		break;*/
 	}
 
 

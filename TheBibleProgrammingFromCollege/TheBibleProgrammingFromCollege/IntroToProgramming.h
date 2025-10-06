@@ -6,14 +6,14 @@ class Beginning {
 public: 
 	Beginning();
 	~Beginning();
-	int Variables();
-	int Expressions();
-	int Syntax();
-	int Decisions();
-	int Loops();
-	int FileIO();
-	int Functions();
-	int Arrays();
+	void Variables();
+	void Expressions();
+	void Syntax();
+	void Decisions();
+	void Loops();
+	void FileIO();
+	void Functions();
+	void Arrays();
 private:
 	int select = 0;
 
