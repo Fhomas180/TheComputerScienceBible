@@ -1,9 +1,11 @@
 #include "AdvancedProgramming.h"
 
-AdvancedBegin::AdvancedBegin()
+Advanced::Advanced()
 {
+	cout << "Welcome To Advanced Programming" << endl;
+
 }
 
-AdvancedBegin::~AdvancedBegin()
+Advanced::~Advanced()
 {
 }

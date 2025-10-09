@@ -3,7 +3,7 @@
 using namespace std;
 
 class Beginning {
-public: 
+public:
 	Beginning();
 	~Beginning();
 	void Variables();
@@ -16,6 +16,7 @@ public:
 	void Arrays();
 private:
 	int select = 0;
+
 
 
 };

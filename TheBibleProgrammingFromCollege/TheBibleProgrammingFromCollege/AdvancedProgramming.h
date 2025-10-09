@@ -1,7 +1,11 @@
 #pragma once
+#include <iostream>
+using namespace std;
 
-class AdvancedBegin {
+class Advanced {
 public:
-	AdvancedBegin();
-	~AdvancedBegin();
+	Advanced();
+	~Advanced();
+
+
 };
