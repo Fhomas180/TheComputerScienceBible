@@ -1,3 +1,0 @@
-﻿  IntroToProgramming.cpp
-C:\Users\tommy\source\repos\TheComputerScienceBible\TheBibleProgrammingFromCollege\TheBibleProgrammingFromCollege\IntroToProgramming.cpp(83,15): warning C4305: 'initializing': truncation from 'double' to 'float'
-  TheBibleProgrammingFromCollege.vcxproj -> C:\Users\tommy\source\repos\TheComputerScienceBible\TheBibleProgrammingFromCollege\x64\Debug\TheBibleProgrammingFromCollege.exe
