@@ -163,6 +163,8 @@ void Beginning::OtherDataTypes() {
     unsigned short aVariable = 1;
     cout << "Example Answer: " << aVariable << "\n";
 
+    cout << "Unsigned Long\n";
+
 
 
 }
