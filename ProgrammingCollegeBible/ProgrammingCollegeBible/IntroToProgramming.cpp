@@ -1,4 +1,4 @@
-#include "IntroToProgramming.h"
+﻿#include "IntroToProgramming.h"
 //To Know use "\n" since endl makes things slower
 Beginning::Beginning() {
     cout << "Welcome To Intro To Programming" << "\n";
@@ -83,17 +83,19 @@ void Beginning::VariablesandStartDataTypes()
 
     //Double
     cout << "2. Double\n" << "\n";
-    cout << "Definition: Stores floating point numbers with decimals" << "\n";
-    cout << "Size: 4 bytes" << "\n";
-    cout << "Range: 1.7E +/- 308 (fifteen digits)" << "\n";
-    cout << "Example: float dec = 12.55" << "\n";
-    float dec = 12.55;
+    cout << "Definition: Stores floating point numbers with double precision" << "\n";
+    cout << "Size: 8 bytes" << "\n";
+    cout << "Range: 1.7E +/- 308 (fifteen to seventeen significant digits)" << "\n";
+    cout << "Example: double dec = 12.55" << "\n";
+    double dec = 12.55;
     cout << "dec = " << dec << "\n";
+
+    
 
     //string
     cout << "3. String" << "\n";
     cout << "Definition: Stores Text" << "\n";
-    cout << "Size: 8 bytes" << "\n";
+    cout << "Size: Variable (depends on text length)" << "\n";
     cout << "Range: doesnt have a range" << "\n";
     cout << "Example: string name = Thomas" << "\n";
     string name = "Thomas";
@@ -123,6 +125,43 @@ void Beginning::VariablesandStartDataTypes()
     cout << "Range: Doesn't have a range\n";
     cout << "Example void theExample(){}\n";
 
+    //Float
+
+    cout << "7. Float\n";
+    cout << "Definition: Floats only store decimals\n";
+    cout << "Size: 4 bytes\n";
+    cout << "Range:±1.4E-45 to ±3.4E+38\n";
+    cout << "Example: float decc = 12.22\n";
+    float decc = 12.22;
+    cout << "decc = " << decc<<"\n";
+
+    //Short
+    cout << "8. Short\n";
+    cout << "Definition: A short is used to store whole numbers in a small amount of memory compared to a int\n";
+    cout << "Size: 2 bytes\n";
+    cout << "Range: -32,767 to 32,767\n";
+    cout << "Example short smallnum = 12345\n";
+    short smallnum = 12345;
+    cout << "smallnum = " << smallnum<<"\n";
+
+    //Long 
+    cout << "9.Long\n";
+    cout << "Definition: A long is used to store whole numbers to hold a large amount of memory\n";
+    cout << "Size: 4 bytes\n";
+    cout << "Range:-2,147,483,648 to 2,147,483,647\n";
+    cout << "Example long largenum = 123456677877\n";
+    long long largenum = 123456677877;
+    cout << "largenum = " << largenum << "\n";
+
+    cout << "10. Long Long\n";
+    cout << "Definition: Used to store very large whole numbers\n";
+    cout << "Size: 8 bytes\n";
+    cout << "Range: -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807\n";
+    cout << "Example: long long hugenum = 9000000000000\n";
+    long long hugenum = 9000000000000;
+    cout << "hugenum = " << hugenum << "\n";
+    cout << "===========================================================\n";
+    cout << "End\n";
 }
 void Beginning::OtherDataTypes() {
     cout << "\n===================================" << "\n";
@@ -164,6 +203,13 @@ void Beginning::OtherDataTypes() {
     cout << "Example Answer: " << aVariable << "\n";
 
     cout << "Unsigned Long\n";
+    cout << "Definition: use to store non negative whole numbers\n";
+    cout << "Size: 4 bytes\n";
+    cout << "Range Two differnt ones: for 32bit 0 to 4,294,967,295 (2^32 - 1) for 64 bit systems 8 bytes 0 to 18,446,744,073,709,551,615 (2^64 − 1)\n";
+ 
+    cout << "Example: unsigned long lVariable = 1234\n";
+    unsigned long lVariable = 1234;
+    cout << "Answer: " << lVariable << "\n";
 
 
 

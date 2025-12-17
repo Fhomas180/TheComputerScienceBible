@@ -1,2 +1,4 @@
-﻿  main.cpp
-  ProgrammingCollegeBible.vcxproj -> C:\Users\tommy\source\repos\ProgrammingCollegeBible\x64\Debug\ProgrammingCollegeBible.exe
+﻿  IntroToProgramming.cpp
+C:\Users\tommy\ProgrammingBible\TheComputerScienceBible\ProgrammingCollegeBible\ProgrammingCollegeBible\IntroToProgramming.cpp(135,16): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\tommy\ProgrammingBible\TheComputerScienceBible\ProgrammingCollegeBible\ProgrammingCollegeBible\IntroToProgramming.cpp(208,13): warning C4566: character represented by universal-character-name '\u2212' cannot be represented in the current code page (1252)
+  ProgrammingCollegeBible.vcxproj -> C:\Users\tommy\ProgrammingBible\TheComputerScienceBible\ProgrammingCollegeBible\x64\Debug\ProgrammingCollegeBible.exe
