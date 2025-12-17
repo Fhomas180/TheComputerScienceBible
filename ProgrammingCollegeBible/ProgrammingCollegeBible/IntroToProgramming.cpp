@@ -6,7 +6,7 @@ Beginning::Beginning() {
     while (select != 10) {
 
         do {
-            cout << "1.Variables/Starter Data Types" << "\n";
+            cout << "1.Starter Data Types" << "\n";
             cout << "2.Other DataTypes" << endl;
             cout << "3.Expressions" << "\n";
             cout << "4.Syntax" << "\n";
@@ -21,7 +21,7 @@ Beginning::Beginning() {
 
         switch (select) {
         case 1:
-            VariablesandStartDataTypes();
+            StartDataTypes();
             break;
         case 2:
             OtherDataTypes();
@@ -58,13 +58,10 @@ Beginning::~Beginning()
 
 }
 
-void Beginning::VariablesandStartDataTypes()
+void Beginning::StartDataTypes()
 {
     cout << "\n=================================" << "\n";
-    cout << "Welcome To Variables" << "\n";
-    cout << "Variables are containers for storing data. They also are storage locations inside computer's memory that hold values or data" << "\n";
-
-    cout << "Here Are All The Variables In C++" << "\n";
+    cout << "Welcome To Data Types" << "\n";
     cout << "=================================\n" << "\n";
 
     //Integers
@@ -217,7 +214,43 @@ void Beginning::OtherDataTypes() {
 
 void Beginning::Expressions()
 {
+    cout << "=======================================" << "\n";
     cout << "Welcome To Expressions" << "\n";
+    cout << "=======================================" << "\n";
+
+    cout << "1. Arithmetic \n";
+    cout << "Addition(+)\n";
+    cout << "Example int a = 5; int b = 10;a + b\n";
+    int a = 5;
+    int b = 10;
+    cout << "Example Answer: " << a + b << "\n";
+    cout << "Subtraction(-)\n";
+    cout << "Example int c = 5; int d = 10;c - d\n";
+    int c = 5;
+    int d = 10;
+    cout << "Example Answer: " << c - d << "\n";
+    cout << "Multiplication(*)\n";
+    cout << "Example int e = 5; int f = 10; e * f\n";
+    int e = 5;
+    int f = 10;
+    cout << "Example Answer: " << e * f << "\n";
+    cout << "Division (/)\n";
+    cout << "Example int adiv = 5; int bdiv = 10; adiv / bdiv\n";
+    int adiv = 5;
+    int bdiv = 10;
+    cout << "Example Answer: " << adiv / bdiv << "\n";
+    cout << "Remainder(%)\n";
+    cout << "Example int arem = 5; int brem = 10; arem % brem\n";
+    int arem = 5;
+    int brem = 10;
+    cout << "Example Answer: " << arem % brem << "\n";
+    cout << "BitWise NOT(From Descrete Math(~))\n";
+    cout << "Bitwise AND(From Descrete Math(&))\n";
+    cout << "BitWise OR(From Descrete Math(|))\n";
+    cout << "Bitwise XOR(^)\n";
+    cout << "Bitwise Shift Left(<<)\n";
+    cout << "Bitwise Shift Right(>>)\n";
+    
 
 
 }

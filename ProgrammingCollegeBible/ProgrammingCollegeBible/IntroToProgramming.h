@@ -6,7 +6,7 @@ class Beginning {
 public:
     Beginning();
     ~Beginning();
-    void VariablesandStartDataTypes();
+    void StartDataTypes();
     void Expressions();
     void OtherDataTypes();
     void Syntax();
